@@ -1,19 +1,7 @@
 #!/usr/bin/env bash
-
-#####################################################################
-##
-## description:
-## Tests for assert extension
-##
-## author: Mark Torok
-##
-## date: 07. Dec. 2016
-##
-## license: MIT
-##
-#####################################################################
-
-set -o nounset
+# SPDX-License-Identifier: MIT
+# Author: github.com/torokmark/assert.sh/edit/master/test_assert.sh
+# description: Tests for assert extension
 
 DIR_TESTS=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
